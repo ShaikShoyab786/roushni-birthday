@@ -1,0 +1,77 @@
+
+
+
+
+.main > h2{
+    font-family: "Birthstone Bounce", serif;
+    text-align: center;
+    color: black;
+}
+
+body{
+    background-color: #FFFAEC;
+}
+.main > h1{
+    text-align: center;
+    color: red;
+}
+
+.main > img{
+    height: 600px;
+    width: 700px;
+    margin-left: 370px;
+}
+.main > p{
+    text-align: center;
+    font-size: large;
+}
+#about{
+    background-color: #D5E7B5;
+}
+
+#gift{
+    color: blueviolet;
+}
+
+.design{
+    font-family: "Dancing Script", serif;
+}
+.first-pic{
+    height: 350px;
+    width: 300px;
+    float: left;
+}
+.second-pic{
+    float: right;
+    height: 350px;
+    width: 300px;
+}
+.para-one{
+    font-family: "Dancing Script", serif;
+    font-size: large;
+}
+.para-two{
+    font-family: "Dancing Script", serif;
+    font-size: large;
+}
+@media (min-width:300px) and (max-width:900px) {
+    .first-pic{
+        height: 150px;
+        width: 100px;
+    }
+    
+}
+@media (min-width:300px) and (max-width:900px) {
+    .second-pic{
+        height: 150px;
+        width: 100px;
+    }
+    
+}
+@media (min-width:300px) and (max-width:600px){
+    .main > img{
+        margin-left: 145px;
+        height: 150px;
+        width: 100px;
+    }
+}
